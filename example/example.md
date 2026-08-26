@@ -66,6 +66,8 @@ When you see a smile <img src="Face-smile.png" style="height: 1em" alt="A small 
 
 ### Large images
 
-If you have a really large image,
+If you have a really large image, GitHub will resize it to fit in the windows.
 
 <img src="steampunk-tux-4k.png" alt="steampunk tux"> 
+
+<a href="steampunk-tux-4k.png" target="_blank">View image</a>
