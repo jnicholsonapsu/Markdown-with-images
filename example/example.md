@@ -48,7 +48,7 @@ The horizontal rule above clears the float, so the next section starts below the
 
 In many cases you will want to give an image a caption. The correct approach is HTML's `figure` element:
 
-<figure style="margin:auto; text-align:center">
+<figure style="text-align:center">
   <img src="Face-smile.png" alt="A smiling face">
   <figcaption>Figure 1: A smiling face.</figcaption>
 </figure>
