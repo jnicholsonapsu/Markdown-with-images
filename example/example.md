@@ -48,10 +48,12 @@ The horizontal rule above clears the float, so the next section starts below the
 
 In many cases you will want to give an image a caption. The correct approach is HTML's `figure` element:
 
-<figure style="text-align:center">
+<div style="margin:auto; text-align: center;">
+<figure>
   <img src="Face-smile.png" alt="A smiling face">
   <figcaption>Figure 1: A smiling face.</figcaption>
 </figure>
+</div>
 
 Unfortunate, GitHub does not support ceIf your renderer doesn't support `figure`, this fallback works everywhere:
 
