@@ -20,15 +20,19 @@ If you want to resize the image, you can do  resize the image to a percentage of
 
 <img src="Face-smile.png" style="width:50%;" alt="A big smiley face">
 
-If you want an image to float around text, e.g., text on the left and image on the right.  You can't use CSS's `float:right` as GitHub strips that, but you can use the HTML attribute `align="right"`. For example, 
+If you want an image to float around text, e.g., text on the left and image on the right.  You can't use CSS's `float:right` as GitHub strips that, but you can use the HTTML attribute `align="right"`. For example, 
 
-<img src="Face-smile.png" style="display:block; float:right; margin-left: 1em; margin-bottom: 1em;" alt="A centered smiley face">
+<img src="Face-smile.png" align="right" style="margin-left: 1em; margin-bottom: 1em;" alt="A smiley face on the right">
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rhoncus ultrices nunc, nec fermentum massa porttitor sit amet. Etiam vehicula, neque sed auctor euismod, tellus est ullamcorper enim, ac elementum nibh libero in odio. Ut ultrices urna at placerat interdum. Sed at tempus lectus, quis semper enim. Proin eu ante nunc. Curabitur mattis dui pharetra, posuere magna vel, venenatis leo. Aliquam erat volutpat. Aliquam sed lectus ac turpis aliquet ultrices sit amet vitae turpis. Vivamus eu congue nunc. Maecenas eleifend blandit nisl, non egestas felis lacinia sit amet. Nulla congue arcu eget consectetur malesuada.
 
 In many cases, you will need to give an image a caption.  For that you can use HTML's `figure` element. For example:
 
 <figure>
-  <img src="Face-smile.png" alt="A smiling face" style="width: 25%">
+  <img src="Face-smile.png" alt="A smiling face">
   <figcaption>Figure 1: A smiling face.</figcaption>
 </figure>
+
+You can also include images inside paragraphs.
+
+When you see a smile <img src="Face-smile.png" style="height: 1em" alt="A big smiley face"> it makes you happy!
