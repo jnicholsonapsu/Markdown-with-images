@@ -10,7 +10,7 @@ For basic images, use Markdown itself: `![alt text](image-url)`. The `alt text` 
 
 ## Image display with HTML and CSS
 
-If you want to do fancy stuff — resizing, floating an image alongside text, centering — then you have to switch to HTML/CSS code snippets. One caveat is that GitHub sanitizes HTML for security reasons, allowing only a limited set of CSS properties. Anything outside that set is silently discarded, so you won't get the full benefit of CSS. For most things, though, what GitHub allows is sufficient.
+If you want to do fancy stuff, e.g., resizing, floating an image alongside text, centering, then you have to switch to HTML/CSS code snippets. One caveat is that GitHub sanitizes HTML for security reasons, allowing only a limited set of CSS properties. Anything outside that set is silently discarded, so you won't get the full benefit of CSS. For most things, though, what GitHub allows is sufficient.
 
 Be aware that editors like Visual Studio Code, which have Markdown preview tools, may support a wider range of CSS than GitHub does. Always double-check your document on GitHub.
 
@@ -40,10 +40,6 @@ To wrap text around an image, you can't use CSS's `float:right`, as GitHub strip
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rhoncus ultrices nunc, nec fermentum massa porttitor sit amet. Etiam vehicula, neque sed auctor euismod, tellus est ullamcorper enim, ac elementum nibh libero in odio. Ut ultrices urna at placerat interdum. Sed at tempus lectus, quis semper enim. Proin eu ante nunc. Curabitur mattis dui pharetra, posuere magna vel, venenatis leo. Aliquam erat volutpat. Aliquam sed lectus ac turpis aliquet ultrices sit amet vitae turpis. Vivamus eu congue nunc. Maecenas eleifend blandit nisl, non egestas felis lacinia sit amet. Nulla congue arcu eget consectetur malesuada.
 
----
-
-The horizontal rule above clears the float, so the next section starts below the image rather than continuing to wrap around it.
-
 ### Caption an image
 
 In many cases you will want to give an image a caption. The correct approach is HTML's `FIGURE` element:
@@ -66,3 +62,10 @@ Unfortunately, GitHub does not support have good support for `FIGURE`, especiall
 By default, the `IMG` element is an inline element, which means it can sit inside a paragraph and flow with the surrounding text. Setting `height: 1em` in the code below scales the image to match the font size of the text around it.
 
 When you see a smile <img src="Face-smile.png" style="height: 1em" alt="A small smiley face"> it makes you happy!
+
+
+### Large images
+
+If you have a really large image,
+
+<img src="steampunk-tux-4k.png" alt="steampunk tux"> 
