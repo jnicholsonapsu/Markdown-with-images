@@ -34,7 +34,7 @@ You can size an image as a percentage of its container. Here, the container is t
 
 ### Float an image to the left or right
 
-To wrap text around an image — text on the left, image on the right — you can't use CSS's `float:right`, as GitHub strips it. Use the HTML attribute `align="right"` instead:
+To wrap text around an image, you can't use CSS's `float:right`, as GitHub strips it. Use the HTML attribute `align="right"` instead:
 
 <img src="Face-smile.png" align="right" style="margin-left: 1em; margin-bottom: 1em;" alt="A smiley face on the right">
 
@@ -46,7 +46,7 @@ The horizontal rule above clears the float, so the next section starts below the
 
 ### Caption an image
 
-In many cases you will want to give an image a caption. The correct approach is HTML's `figure` element:
+In many cases you will want to give an image a caption. The correct approach is HTML's `FIGURE` element:
 
 <figure>
   <img src="Face-smile.png" alt="A smiling face">
