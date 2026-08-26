@@ -21,3 +21,10 @@ If you want an image to float around text, e.g., text on the left and image on t
 <img src="Face-smile.png" align="right" style="margin-left: 1em; margin-bottom: 1em;" alt="A centered smiley face">
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rhoncus ultrices nunc, nec fermentum massa porttitor sit amet. Etiam vehicula, neque sed auctor euismod, tellus est ullamcorper enim, ac elementum nibh libero in odio. Ut ultrices urna at placerat interdum. Sed at tempus lectus, quis semper enim. Proin eu ante nunc. Curabitur mattis dui pharetra, posuere magna vel, venenatis leo. Aliquam erat volutpat. Aliquam sed lectus ac turpis aliquet ultrices sit amet vitae turpis. Vivamus eu congue nunc. Maecenas eleifend blandit nisl, non egestas felis lacinia sit amet. Nulla congue arcu eget consectetur malesuada.
+
+In many cases, you will need to give an image a caption.  For that you can use HTML's `figure` element. For example:
+
+<figure style="width:30%; margin:auto">
+  <img src="Face-smile.png" alt="A smiling face" style="margin:auto">
+  <figcaption style="margin:auto; text-align:center;">Figure 1: A smiling face.</figcaption>
+</figure>
