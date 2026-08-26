@@ -46,14 +46,19 @@ The horizontal rule above clears the float, so the next section starts below the
 
 ### Caption an image
 
-In many cases you will want to give an image a caption. You can use HTML's `figure` element:
+In many cases you will want to give an image a caption. The correct approach is HTML's `figure` element:
 
-<figure align="center">
+<figure style="margin:auto; text-align:center">
   <img src="Face-smile.png" alt="A smiling face">
   <figcaption>Figure 1: A smiling face.</figcaption>
 </figure>
 
-In general, captioned figures should be centered.
+Unfortunate, GitHub does not support ceIf your renderer doesn't support `figure`, this fallback works everywhere:
+
+<p align="center">
+  <img src="Face-smile.png" alt="A smiling face"><br>
+  <em>Figure 1: A smiling face.</em>
+</p>
 
 ### Add images within text
 
