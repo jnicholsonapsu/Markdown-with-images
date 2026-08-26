@@ -26,5 +26,5 @@ In many cases, you will need to give an image a caption.  For that you can use H
 
 <figure>
   <img src="Face-smile.png" alt="A smiling face" style="width: 25%">
-  <figcaption>Figure 1: A smiling face.</figcaption>
+  <figcaption style="text-align: center;">Figure 1: A smiling face.</figcaption>
 </figure>
