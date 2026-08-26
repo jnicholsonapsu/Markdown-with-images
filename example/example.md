@@ -63,11 +63,3 @@ By default, the `IMG` element is an inline element, which means it can sit insid
 
 When you see a smile <img src="Face-smile.png" style="height: 1em" alt="A small smiley face"> it makes you happy!
 
-
-### Large images
-
-If you have a really large image, GitHub will resize it to fit in the windows.
-
-<img src="steampunk-tux-4k.png" alt="steampunk tux"> 
-
-<a href="./steampunk-tux-4k.png?raw=1" target="_blank">View image</a>
