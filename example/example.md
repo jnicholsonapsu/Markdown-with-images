@@ -70,4 +70,4 @@ If you have a really large image, GitHub will resize it to fit in the windows.
 
 <img src="steampunk-tux-4k.png" alt="steampunk tux"> 
 
-<a href="steampunk-tux-4k.png?raw=1" target="_blank">View image</a>
+<a href="./steampunk-tux-4k.png?raw=1" target="_blank">View image</a>
