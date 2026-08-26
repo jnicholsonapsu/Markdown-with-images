@@ -25,6 +25,6 @@ If you want an image to float around text, e.g., text on the left and image on t
 In many cases, you will need to give an image a caption.  For that you can use HTML's `figure` element. For example:
 
 <figure>
-  <img src="Face-smile.png" alt="A smiling face">
-  <figcaption style="text-align:center;">Figure 1: A smiling face.</figcaption>
+  <img src="Face-smile.png" alt="A smiling face" style="width: 25%">
+  <figcaption>Figure 1: A smiling face.</figcaption>
 </figure>
