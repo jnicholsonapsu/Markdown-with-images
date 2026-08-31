@@ -67,6 +67,7 @@ When you see a smile <img src="Face-smile.png" style="height: 1em" alt="A small 
 List of fruit
 
 * Apple
+* Banana
 * Pear
 * Watermelon
 
