@@ -68,6 +68,7 @@ List of fruit
 
 * Apple
 * Banana
+* Durian
 * Pear
 * Strawberry
 * Watermelon
