@@ -6,7 +6,7 @@ This is a sample file written in Markdown that links to images.
 
 For basic images, use Markdown itself: `![alt text](image-url)`. The `alt text` appears if the image can't be found, and is read aloud by screen readers. The `image-url` is the path to the image. If the image is in the same folder as the Markdown file, you only need the name of the image file.
 
-![A smiling face](Face-smile.png)
+![A smiling face](steampunk-tux-4k.png)
 
 ## Image display with HTML and CSS
 
@@ -48,7 +48,6 @@ In many cases you will want to give an image a caption. The correct approach is 
   <img src="Face-smile.png" alt="A smiling face">
   <figcaption>Figure 1: A smiling face.</figcaption>
 </figure>
-</div>
 
 Unfortunately, GitHub does not support have good support for `FIGURE`, especially centering it.  Since images that are captioned generally look better when centered, you can use the fallback method with the `P` and `SPAN` elements.
 
@@ -62,4 +61,23 @@ Unfortunately, GitHub does not support have good support for `FIGURE`, especiall
 By default, the `IMG` element is an inline element, which means it can sit inside a paragraph and flow with the surrounding text. Setting `height: 1em` in the code below scales the image to match the font size of the text around it.
 
 When you see a smile <img src="Face-smile.png" style="height: 1em" alt="A small smiley face"> it makes you happy!
+
+## Other things
+
+List of fruit
+
+* Apple
+* Pear
+* Watermelon
+
+List steps
+
+1. Get bread
+
+1. Get butter
+
+    1. Margarine is unacceptable
+    1. Butter is awesome
+  
+1. Put butter on bread
 
