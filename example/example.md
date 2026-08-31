@@ -68,6 +68,7 @@ List of fruit
 
 * Apple
 * Pear
+* Strawberry
 * Watermelon
 
 List steps
